@@ -6,7 +6,7 @@ $sm = $slotModuleGateway->get($request->param("slot_module_id"));
 $data = unserialize($sm["slot_module_data"]);
 
 
-if(!isset($data['show_models']) || empty($data['show_models']) || $data['show_models'] == 'Не отображать') {
+if(!isset($data['show_models']) || empty($data['show_models']) || $data['show_models'] == 'РќРµ РѕС‚РѕР±СЂР°Р¶Р°С‚СЊ') {
     $data['show_models'] = '';
 }
 

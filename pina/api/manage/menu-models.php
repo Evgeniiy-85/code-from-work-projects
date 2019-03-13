@@ -1,5 +1,5 @@
 <?php
-validateNotEmpty($request, 'slot_module_id', 'Внутренняя ошибка');
+validateNotEmpty($request, 'slot_module_id', 'Р’РЅСѓС‚СЂРµРЅРЅСЏСЏ РѕС€РёР±РєР°');
 $request->trust();
 
 $params = $request->params();
@@ -31,7 +31,7 @@ $slotModuleGateway = new SlotModuleGateway();
 $slotModuleGateway->edit($slot_module_id, array('slot_module_data' => serialize($data)));
 
 
-$request->set("site_version_comment", "Настройки модуля <Меню моделей> были изменены");
+$request->set("site_version_comment", "РќР°СЃС‚СЂРѕР№РєРё РјРѕРґСѓР»СЏ <РњРµРЅСЋ РјРѕРґРµР»РµР№> Р±С‹Р»Рё РёР·РјРµРЅРµРЅС‹");
 $request->run("site-version.manage.save");
 
 $request->ok();

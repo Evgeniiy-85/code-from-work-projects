@@ -1,6 +1,6 @@
 <?php
 $slot_module_id = $request->param('slot_module_id');
-validateNotEmpty($request, 'slot_module_id', 'Модуль не известен');
+validateNotEmpty($request, 'slot_module_id', 'пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ');
 $request->trust();
 
 require_once PATH_TABLES.'slot_module.php';
@@ -10,7 +10,7 @@ $data = unserialize($sm['slot_module_data']);
 $show_models_selector = array();
 
 
-$modelTypes = array('Не отображать', 'NX', 'ES','RX','LX','GS F','LS','GX','RC');
+$modelTypes = array('пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ', 'NX', 'ES','RX','LX','GS F','LS','GX','RC');
 foreach ($modelTypes as $modelType)
 {
 	$show_models_selector [] = array(

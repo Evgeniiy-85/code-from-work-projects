@@ -1,6 +1,6 @@
 <fieldset>
 <div class="field w100">
-    <span style="float:left">Отображать модели:</span>
+    <span style="float:left">РћС‚РѕР±СЂР°Р¶Р°С‚СЊ РјРѕРґРµР»Рё:</span>
 </div>
 <div class="field w100">
 	<label for="send_to_client"></label>
